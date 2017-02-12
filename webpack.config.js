@@ -95,8 +95,12 @@ module.exports = function (env) {
           },
         },
         {
-           test: /\.css$/,
-           use: isProd ? extractTextLoader() : nonExtractTextLoader()
+          test: /\.less$/,
+          use: isProd ? lessExtractTextLoader() : lessNonExtractTextLoader()
+        },
+        {
+          test: /\.css$/,
+          use: isProd ? extractTextLoader() : nonExtractTextLoader()
         },
         {
           test: /\.(js|jsx)$/,
@@ -168,12 +172,26 @@ function isExternal(module) {
 function nonExtractTextLoader() {
   return [
     'style-loader',
+    'css-loader?sourceMap'
+  ]
+}
+
+function lessNonExtractTextLoader() {
+  return [
+    'style-loader',
     'css-loader?sourceMap',
+    'less-loader?sourceMap'
   ]
 }
 
 function extractTextLoader() {
   return ExtractTextPlugin.extract({
      fallback: 'style-loader', use: 'css-loader'
+   })
+}
+
+function lessExtractTextLoader() {
+  return ExtractTextPlugin.extract({
+     fallback: 'style-loader', use: 'css-loader!less-loader'
    })
 }
