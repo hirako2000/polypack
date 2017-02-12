@@ -1,0 +1,6 @@
+import 'purecss/build/base.css'
+import 'purecss/build/buttons.css'
+import 'purecss/build/tables.css'
+import 'purecss/build/menus.css'
+import 'purecss/build/grids.css'
+import './styles/styles.css'
