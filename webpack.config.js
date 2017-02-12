@@ -111,6 +111,10 @@ module.exports = function (env) {
           loader: isProd ? "file-loader" : "url-loader"
         },
         {
+          test: /\.(jpg|jpeg|png)$/,
+          loader: isProd ? "file-loader" : "url-loader"
+        },
+        {
           test: /\.(js|jsx)$/,
           use: [
             'babel-loader'
