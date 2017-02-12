@@ -103,6 +103,14 @@ module.exports = function (env) {
           use: isProd ? extractTextLoader() : nonExtractTextLoader()
         },
         {
+          test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+          loader: isProd ? "file-loader?limit=10000&mimetype=application/font-woff" : "url-loader?limit=10000&mimetype=application/font-woff"
+        },
+        {
+          test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+          loader: isProd ? "file-loader" : "url-loader"
+        },
+        {
           test: /\.(js|jsx)$/,
           use: [
             'babel-loader'
