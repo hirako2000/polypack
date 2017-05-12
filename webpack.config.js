@@ -25,6 +25,20 @@ module.exports = function (env) {
         return isExternal(module)
       },
     }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "mincss.vendor",
+      chunks: ["mincss"],
+      minChunks: function(module, count){
+        return isExternal(module)
+      },
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: "photo.vendor",
+      chunks: ["photo"],
+      minChunks: function(module, count){
+        return isExternal(module)
+      },
+    }),
     new webpack.DefinePlugin({
       'process.env': { NODE_ENV: JSON.stringify(nodeEnv) }
     }),
@@ -36,11 +50,23 @@ module.exports = function (env) {
        chunks: ['inferno.vendor', 'inferno'],
     }),
     new HtmlWebpackPlugin({
-     filename: 'purecss.html',
-     title: 'PureCSS',
-     template: 'purecss/index-template.html',
-     chunks: ['purecss.vendor', 'purecss'],
-   })
+      filename: 'purecss.html',
+      title: 'PureCSS',
+      template: 'purecss/index-template.html',
+      chunks: ['purecss.vendor', 'purecss'],
+   }),
+    new HtmlWebpackPlugin({
+      filename: 'mincss.html',
+      title: 'MINCSS',
+      template: 'mincss/index-template.html',
+      chunks: ['mincss.vendor', 'mincss'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'photo.html',
+      title: 'Photo',
+      template: 'photo/index-template.html',
+      chunks: ['photo.vendor', 'photo'],
+    })
   ]
 
   if (isProd) {
@@ -77,7 +103,9 @@ module.exports = function (env) {
     context: sourcePath,
     entry: {
       inferno: './inferno/index.js',
-      purecss: './purecss/index.js'
+      purecss: './purecss/index.js',
+      mincss: './mincss/index.js',
+      photo: './photo/index.js'
     },
     output: {
       path: __dirname + '/static',

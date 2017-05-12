@@ -1,0 +1,8 @@
+import 'mincss-modules/less/buttons.less'
+import 'mincss-modules/less/grid.less'
+import 'mincss-modules/less/icons.less'
+import 'mincss-modules/less/navbar.less'
+import 'mincss-modules/less/tables.less'
+import 'mincss-modules/less/forms.less'
+import './styles/styles.less'
+import './img/logo.svg'

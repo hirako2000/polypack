@@ -18,7 +18,7 @@
   "devDependencies": {
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
-    "babel-plugin-inferno": "^1.9.0",
+    "babel-plugin-inferno": "^3.1.0",
     "babel-preset-es2015": "^6.22.0",
     "compression-webpack-plugin": "^0.3.2",
     "cross-env": "^3.1.4",
@@ -31,14 +31,21 @@
     "less-loader": "^2.2.3",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.4"
   },
   "dependencies": {
+    "basscss": "^8.0.2",
+    "fecha": "^2.3.0",
     "furtive": "^2.3.0",
-    "inferno": "^1.3.0-rc.1",
-    "inferno-component": "^1.3.0-rc.2",
-    "inferno-shared": "^1.3.0-rc.1",
+    "inferno": "^3.1.2",
+    "inferno-component": "^3.1.2",
+    "inferno-redux": "^3.1.2",
+    "inferno-router": "^3.1.2",
+    "inferno-shared": "^3.1.1",
+    "lodash": "4.17.4",
+    "mincss-modules": "^2.0.0",
+    "netflixroulette-js": "0.0.1",
     "purecss": "^0.6.2"
   }
 }
