@@ -10,11 +10,12 @@ Description coming soon as this is work in progres
 - [x] Hot Module Reload
 - [x] Production build
 - [x] Cross environment variables
-- [x] Gzip 
+- [x] Gzip
 - [x] Less support
 - [x] Sass support
 - [x] Fonts support
 - [x] Inferno JS skeleton
-- [ ] Redux skeleton
+- [x] Redux skeleton
 - [x] PureCSS skeleton
-- [ ] mincss skeleton
+- [x] mincss skeleton
+- [x] Inferno sample webapp
