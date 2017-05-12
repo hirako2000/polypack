@@ -2,7 +2,7 @@
 
 Polypack is a boilerplate configuration to build the most lightweight front end assets for webapp or static pages.
 
-The motivation behind this project started from observation that most if not all boilerplate to start with a bundler or build system that are either bloated, or incomplete in order to develop production applications.
+The motivation behind this project started from observation that most if not all boilerplates are either bloated with heavyweight libs, or incomplete in order to develop and ship production applications.
 
 ### Objective
 
@@ -33,3 +33,4 @@ The motivation behind this project started from observation that most if not all
 - [x] PureCSS skeleton
 - [x] mincss skeleton
 - [x] Inferno sample webapp
+- [ ] Linter
