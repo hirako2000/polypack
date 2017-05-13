@@ -15,7 +15,6 @@ class BlobComponent extends Component {
   componentWillMount() {
     var thiz = this
     if(true) {
-      console.log("component will mount")
     fetch(0)
       .then(function(response) {
         var sortedShows = orderBy(response,  [function(o) { return o.show.weight && o.show.rating.average > 0  ? o.show.weight : 0 }, function(o) { return o.show.rating.average > 0 ? o.show.rating.average : 0 }], ['desc', 'desc']);
@@ -37,14 +36,10 @@ class BlobComponent extends Component {
 
   render() {
     if(!this.props.shows) {
-      console.log("No shows yet")
       return (
         <div className="loader">Loading...</div>
       )
     }
-
-    console.log(" shows now")
-
 
     return (
       <div className="fade-in">

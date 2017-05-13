@@ -33,7 +33,6 @@ class HeaderComponent extends Component {
     var thiz = this
     var date = new Date();
     let shift = 0;
-    console.log(" now day " + date.getDay() + ", selected day " + this.state.day)
     if(this.state.day != this.state.today) {
       if (this.state.day - this.state.today < 0) {
         shift = 7 + (this.state.day - this.state.today)
@@ -45,7 +44,6 @@ class HeaderComponent extends Component {
       type: 'SHOWS',
       name: null
     });
-    console.log("Goind to fetch from header")
     fetch(shift)
       .then(function(response) {
         //var sortedShows = orderBy(response,  [function(o) { return o.show.rating.average && o.show.rating.average < 10 && o.image && o.image.original ? o.show.rating.average : 0 }], ['desc']);
