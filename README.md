@@ -40,5 +40,28 @@ The motivation behind this project started from observation that most if not all
 - [x] Inferno sample webapp
 - [ ] Linter
 
+### TV program roll webapp example with Inferno/redux & mincss
+
 ![top](https://raw.githubusercontent.com/hirako2000/polypack/master/screenshots/tv-roll-top.jpg)
 ![mid](https://raw.githubusercontent.com/hirako2000/polypack/master/screenshots/tv-roll-mid.jpg)
+
+#### Size
+
+```
+                                  Asset       Size  Chunks                    Chunk Names
+   bcff9e9b7b53122acb52df67cd5f4d4f.svg    1.99 kB          [emitted]         
+                               photo.js    14.6 kB       0  [emitted]         photo
+                        photo.vendor.js     114 kB       4  [emitted]         photo.vendor
+                              photo.css    3.97 kB       0  [emitted]         photo
+                       photo.vendor.css    1.95 kB       4  [emitted]         photo.vendor
+                             photo.html  398 bytes          [emitted]
+```
+#### Size (gziped)
+```
+bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]         
+                            photo.js.gz    2.88 kB          [emitted]     
+                     photo.vendor.js.gz    27.9 kB          [emitted]
+                           photo.css.gz    1.32 kB          [emitted]
+                    photo.vendor.css.gz  850 bytes          [emitted]                                           
+                             photo.html  398 bytes          [emitted]   
+```
