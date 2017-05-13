@@ -1,0 +1,15 @@
+# Travis build config
+sudo: false
+language: node_js
+node_js:
+  - "5.10.1"
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install
+
+script:
+  - npm run test
