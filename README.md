@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/hirako2000/polypack.svg?branch=master)](https://travis-ci.org/hirako2000/polypack)
 [![Dependency Status](https://david-dm.org/hirako2000/polypack.svg?style=flat)](https://david-dm.org/hirako2000/polypack)
 [![devDependency Status](https://david-dm.org/hirako2000/polypack/dev-status.svg)](https://david-dm.org/hirako2000/polypack#info=devDependencies)
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/hirako2000/polypack/edit/master/LICENSE)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/hirako2000/polypack/blob/master/LICENSE)
 
 # polypack
 
