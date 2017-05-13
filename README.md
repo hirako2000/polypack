@@ -67,10 +67,10 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
                              photo.html  398 bytes          [emitted]   
 ```
 
-
+### Folder structure
 ```
 .
-├── src                          # Application source code
+├── src                          # Applications source code
 │   ├── inferno                  # Inferno app
 │   │   ├── components           # Components
 │   │   ├── styles               # Styles
