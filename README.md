@@ -11,14 +11,14 @@ The motivation behind this project started from observation that most if not all
 
 ### Objective
 
-- Ready to use build and bundling system
-- Most lightweight libraries
+- Ready to use build and bundling system with [webpack](https://webpack.github.io/)
+- Most lightweight libraries for [performance](https://webpack.github.io/)
 - Web application, react-like skeleton
 - State store
 - Static web page setup
-- Support for both either or both Less/Sass
-- Support for various fonts formats
-- Hot Module Reload for rapid development
+- Support for both either or both [{less}](http://lesscss.org/)/[Sass](http://sass-lang.com/)
+- Support for various web fonts formats
+- [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/) for rapid development
 - ES6/7
 - Production build with minified, concat and gzipped content
 
