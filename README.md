@@ -12,7 +12,7 @@ The motivation behind this project started from observation that most if not all
 ### Objective
 
 - Ready to use build and bundling system with [webpack](https://webpack.github.io/)
-- Most lightweight libraries for [performance](https://webpack.github.io/)
+- Most lightweight libraries for [performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
 - Web application, react-like skeleton
 - State store
 - Static web page setup
