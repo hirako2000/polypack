@@ -21,6 +21,7 @@ class MainComponent extends Component {
           <HeaderComponent store={this.props.store}/>
           <BlobComponent store={this.props.store}/>
         </div>
+        <FooterComponent/>
       </div>)
   }
 }
