@@ -39,6 +39,7 @@ The motivation behind this project started from observation that most if not all
 - [x] mincss skeleton
 - [x] Inferno sample webapp
 - [ ] Linter
+- [ ] Jest
 
 ### TV program roll webapp example with Inferno/redux & mincss
 
@@ -56,7 +57,7 @@ The motivation behind this project started from observation that most if not all
                        photo.vendor.css    1.95 kB       4  [emitted]         photo.vendor
                              photo.html  398 bytes          [emitted]
 ```
-#### Size (gziped)
+#### Size (gzipped)
 ```
 bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]         
                             photo.js.gz    2.88 kB          [emitted]     
