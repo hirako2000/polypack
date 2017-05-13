@@ -66,3 +66,32 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
                     photo.vendor.css.gz  850 bytes          [emitted]                                           
                              photo.html  398 bytes          [emitted]   
 ```
+
+
+```
+.
+├── src                          # Application source code
+│   ├── inferno                  # Inferno app
+│   │   ├── components           # Components
+│   │   ├── styles               # Styles
+│   |   ├── index-template.html  # HTML template
+│   |   └── index.js             # Entry point
+│   ├── mincss                   # Mincss landing page
+│   │   ├── img                  # images
+│   │   ├── styles               # Styles
+│   |   ├── index-template.html  # HTML template
+│   |   └── index.js             # Entry point
+│   ├── photo                    # Inferno app for TV roll example
+│   │   ├── components           # Components
+│   │   ├── img                  # Images 
+│   │   ├── styles               # Styles
+│   |   ├── index-template.html  # HTML template
+│   |   └── index.js             # Entry point
+│   └── purecss                  # Purecss landing page
+│       ├── img                  # images
+│       ├── styles               # Styles
+│       ├── index-template.html  # HTML template
+│       └── index.js             # Entry point
+├── static                       # Output of prod assets
+└── webpack.config.js            # Webpack config for both dev and prod builds
+```
