@@ -43,6 +43,8 @@ The motivation behind this project started from observation that most if not all
 
 ### TV program roll webapp example with Inferno/redux & mincss
 
+HBO look & feel with [Mincss](http://mincss.com/)
+
 ![top](https://raw.githubusercontent.com/hirako2000/polypack/master/screenshots/tv-roll-top.jpg)
 ![mid](https://raw.githubusercontent.com/hirako2000/polypack/master/screenshots/tv-roll-mid.jpg)
 
