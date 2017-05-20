@@ -1,6 +1,6 @@
 {
   "name": "polypack",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Webpack skeleton",
   "main": "index.js",
   "scripts": {
