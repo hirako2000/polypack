@@ -1,15 +1,11 @@
 import Inferno from 'inferno'
 import Component from 'inferno-component'
-import FooterComponent from './FooterComponent'
-import TopHeaderComponent from './TopHeaderComponent'
-import BlobComponent from './BlobComponent'
-import HeaderComponent from './HeaderComponent'
+import FooterComponent from './footer-component'
+import TopHeaderComponent from './top-header-component'
+import BlobComponent from './blob-component'
+import HeaderComponent from './header-component'
 
 class MainComponent extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   componentDidMount() {
   }
 

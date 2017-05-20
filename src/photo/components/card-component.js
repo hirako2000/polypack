@@ -2,16 +2,12 @@ import Inferno from 'inferno'
 import Component from 'inferno-component'
 
 class CardComponent extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   componentDidMount() {
   }
 
   prettyText(show) {
     let summary = show.summary ? show.summary : show.show.summary
-    summary = summary.replace(/(<([^>]+)>)/ig,"")
+    summary = summary.replace(/(<([^>]+)>)/ig, '')
     if (summary.length > 200) {
       summary = summary.substring(0, 200) + '...'
     }
@@ -19,19 +15,19 @@ class CardComponent extends Component {
   }
 
   render() {
-    let show = this.props.show
-    var genres = [];
+    const show = this.props.show
+    const genres = []
     if (show.show.genres && show.show.genres.length > 0) {
-      for (var i=0; i < show.show.genres.length; i++) {
-        genres.push(<span>{show.show.genres[i]}</span>);
+      for (let i = 0; i < show.show.genres.length; i++) {
+        genres.push(<span>{show.show.genres[i]}</span>)
         if (i < show.show.genres.length - 1) {
-           genres.push(<span> | </span>);
+          genres.push(<span> | </span>)
         }
       }
     }
-    let imageCount = this.props.imageCount
-    let imageStyles = "fit-image"
-    imageStyles = imageCount === 1 ? imageStyles += " front-image" : imageCount === 2 ? imageStyles += " two-image" : imageStyles += " three-image"
+    const imageCount = this.props.imageCount
+    let imageStyles = 'fit-image'
+    imageStyles = imageCount === 1 ? imageStyles += ' front-image' : imageCount === 2 ? imageStyles += ' two-image' : imageStyles += ' three-image'
     return (
       <div className="gutter-content">
         <img className={imageStyles} src={show.image ? show.image.original : show.show.image.original}/>
@@ -49,11 +45,11 @@ class CardComponent extends Component {
           {show.name}
         </div>
         <div className="movie-description">
-        { this.prettyText(show) }
+          { this.prettyText(show) }
         </div>
         <div className="genres">
           <span >
-          { show.show.network.name }
+            { show.show.network.name }
           </span>
           <span className="float-right">
            Rating: { show.show.rating.average }

@@ -1,13 +1,7 @@
 import Inferno from 'inferno'
-import Component,  { linkEvent } from 'inferno-component'
-import fetch from '../tvmaze.js'
-import orderBy from 'lodash/orderBy'
+import Component from 'inferno-component'
 
 class FooterComponent extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <div className="footer-container">

@@ -1,7 +1,6 @@
-import Inferno from 'inferno'
 import Component from 'inferno-component'
 
-class WelcomeComponent extends Component {
+export default class WelcomeComponent extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,5 +15,3 @@ class WelcomeComponent extends Component {
     )
   }
 }
-
-export default WelcomeComponent

@@ -7,7 +7,7 @@
     "start": "webpack-dev-server",
     "prod": "cross-env NODE_ENV=production webpack-dev-server --env.prod=true",
     "build": "cross-env NODE_ENV=production webpack --env.prod=true",
-    "test": "exit 0"
+    "test": "xo ./src/**/*.js"
   },
   "keywords": [
     "webpack"
@@ -23,6 +23,9 @@
     "compression-webpack-plugin": "^0.4.0",
     "cross-env": "^5.0.0",
     "css-loader": "^0.28.1",
+    "eslint-config-xo": "^0.18.2",
+    "eslint-config-xo-inferno": "^0.11.1",
+    "eslint-plugin-inferno": "^6.10.4",
     "extract-text-webpack-plugin": "^2.0.0-rc.1",
     "file-loader": "^0.11.1",
     "html-loader": "^0.4.4",
@@ -32,7 +35,8 @@
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.4"
+    "webpack-dev-server": "^2.4.4",
+    "xo": "^0.18.2"
   },
   "dependencies": {
     "basscss": "^8.0.2",
@@ -46,6 +50,18 @@
     "lodash": "4.17.4",
     "mincss-modules": "^2.0.0",
     "netflixroulette-js": "0.0.1",
-    "purecss": "^0.6.2"
+    "purecss": "^0.6.2",
+    "redux": "^3.6.0"
+  },
+  "xo": {
+    "extends": [
+      "xo/esnext",
+      "xo-inferno/space"
+    ],
+    "env": "browser",
+    "semicolon": false,
+    "space": 2,
+    "unicorn/filename-case": 0,
+    "import/no-extraneous-dependencies": 0
   }
 }
