@@ -105,14 +105,14 @@ Simply fork, or download the zip content of this repo.
 - Node.js
 
 #### Run
-```
+```bash
 npm install # installs deps
 ```
 
-```
+```bash
 npm start # starts the app in dev mode
 ```
-```
+```bash
 npm run build # builds app for production
 ```
 #### Browse
