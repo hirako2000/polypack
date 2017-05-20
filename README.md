@@ -106,14 +106,14 @@ Simply fork, or download the zip content of this repo.
 
 #### Run
 ```
-npm install // install deps
+npm install # installs deps
 ```
 
 ```
-npm start // start the app in dev mode
+npm start # starts the app in dev mode
 ```
 ```
-npm run build // build app for production
+npm run build # builds app for production
 ```
 #### Browse
 There are multiple web apps built default
