@@ -99,3 +99,29 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
 ├── static                       # Output of prod assets
 └── webpack.config.js            # Webpack config for both dev and prod builds
 ```
+### HOWTO
+Simply fork, or download the zip content of this repo.
+#### Prerequisite
+- Node.js
+
+#### Run
+```
+npm install // install deps
+```
+
+```
+npm start // start the app in dev mode
+```
+```
+npm run build // build app for production
+```
+#### Browse
+There are multiple web apps built default
+[http://localhost3000/mincss] - mincss starter 
+[http://localhost3000/purecss] - purecss starter
+[http://localhost3000/inferno] - inferno/redux starter
+[http://localhost3000/photo] - the tv roll exampe (inferno/redux fetching TVmaze schedules)
+
+
+### Contributing
+PR are welcome
