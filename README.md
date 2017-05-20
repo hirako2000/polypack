@@ -117,10 +117,10 @@ npm run build // build app for production
 ```
 #### Browse
 There are multiple web apps built default
-[http://localhost3000/mincss] - mincss starter 
-[http://localhost3000/purecss] - purecss starter
-[http://localhost3000/inferno] - inferno/redux starter
-[http://localhost3000/photo] - the tv roll exampe (inferno/redux fetching TVmaze schedules)
+- [http://localhost3000/mincss](http://localhost3000/mincss]) - mincss starter 
+- [http://localhost3000/purecss](http://localhost3000/purecss) - purecss starter
+- [http://localhost3000/inferno](http://localhost3000/inferno) - inferno/redux starter
+- [http://localhost3000/photo](http://localhost3000/photo) - the tv roll exampe (inferno/redux fetching TVmaze schedules)
 
 
 ### Contributing
