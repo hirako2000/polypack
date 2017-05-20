@@ -38,7 +38,7 @@ The motivation behind this project started from observation that most if not all
 - [x] PureCSS skeleton
 - [x] mincss skeleton
 - [x] Inferno sample webapp
-- [ ] Linter
+- [x] Linter
 - [ ] Jest
 
 ### TV program roll webapp example with Inferno/redux & mincss
@@ -87,7 +87,7 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
 │   |   └── index.js             # Entry point
 │   ├── photo                    # Inferno app for TV roll example
 │   │   ├── components           # Components
-│   │   ├── img                  # Images 
+│   │   ├── img                  # Images
 │   │   ├── styles               # Styles
 │   |   ├── index-template.html  # HTML template
 │   |   └── index.js             # Entry point
