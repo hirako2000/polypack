@@ -9,17 +9,18 @@ Polypack is a boilerplate configuration to build the most lightweight front end 
 
 The motivation behind this project started from observation that most if not all boilerplates are either bloated with heavyweight libs, or incomplete in order to develop and ship production applications.
 
-### Objective
+### Features
 
 - Ready to use build and bundling system with [webpack](https://webpack.github.io/)
 - Most lightweight libraries for [performance](https://medium.com/reloading/javascript-start-up-performance-69200f43b201)
 - Web application, react-like skeleton
 - State store
 - Static web page setup
-- Support for both either or both [{less}](http://lesscss.org/)/[Sass](http://sass-lang.com/)
+- Support for either or both [{less}](http://lesscss.org/)/[Sass](http://sass-lang.com/)
 - Support for various web fonts formats
 - [Hot Module Replacement](https://webpack.js.org/concepts/hot-module-replacement/) for rapid development
 - ES6/7
+- Linting
 - Production build with minified, concat and gzipped content
 
 ### Roadmap
