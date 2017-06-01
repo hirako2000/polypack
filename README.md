@@ -118,7 +118,7 @@ npm run build # builds app for production
 ```
 #### Browse
 There are multiple web apps built by default
-- [http://localhost:3000/mincss.html](http://localhost:3000/mincss.html]) - mincss starter 
+- [http://localhost:3000/mincss.html](http://localhost:3000/mincss.html) - mincss starter 
 - [http://localhost:3000/purecss.html](http://localhost:3000/purecss.html) - purecss starter
 - [http://localhost:3000/inferno.html](http://localhost:3000/inferno.html) - inferno/redux starter
 - [http://localhost:3000/photo.html](http://localhost:3000/photo.html) - the tv roll exampe (inferno/redux fetching TVmaze schedules)
