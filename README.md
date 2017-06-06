@@ -71,7 +71,7 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
                     photo.vendor.css.gz  850 bytes          [emitted]                                           
                              photo.html  398 bytes          [emitted]   
 ```
-### Potao shop
+### Potato shop
 Landing page with Inferno & [Basscss](http://basscss.com/)
 
 [Live Demo](https://eager-potatoes.surge.sh/) | [Source](https://github.com/hirako2000/polypack-potatoes)
@@ -99,8 +99,9 @@ Landing page with Inferno & [Basscss](http://basscss.com/)
                potatoes.vendor.js.gz    15.4 kB          [emitted]  
                           index.html  418 bytes          [emitted]  
 ```
-### Folder structure
 
+### Folder structure
+```
 .
 ├── src                          # Applications source code
 │   ├── inferno                  # Inferno app
