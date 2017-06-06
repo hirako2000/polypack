@@ -71,9 +71,36 @@ bcff9e9b7b53122acb52df67cd5f4d4f.svg.gz  901 bytes          [emitted]
                     photo.vendor.css.gz  850 bytes          [emitted]                                           
                              photo.html  398 bytes          [emitted]   
 ```
+### Potao shop
+Landing page with Inferno & [Basscss](http://basscss.com/)
 
-### Folder structure
+[Live Demo](https://eager-potatoes.surge.sh/) | [Source](https://github.com/hirako2000/polypack-potatoes)
+
+![](https://raw.githubusercontent.com/hirako2000/polypack-potatoes/master/screenshots/potato-top.png)
+
+#### Size
+
 ```
+                               Asset       Size  Chunks             Chunk Names
+                    potatoes.css.map   89 bytes       0  [emitted]  potatoes
+                         potatoes.js    21.9 kB       0  [emitted]  potatoes
+                  potatoes.vendor.js    51.4 kB       1  [emitted]  potatoes.vendor
+                        potatoes.css    4.65 kB       0  [emitted]  potatoes
+                 potatoes.vendor.css    9.89 kB       1  [emitted]  potatoes.vendor
+             potatoes.vendor.css.map   96 bytes       1  [emitted]  potatoes.vendor
+                          index.html  418 bytes          [emitted]  
+```
+#### Size (gzipped)
+```
+                               Asset       Size  Chunks             Chunk Names
+                      potatoes.js.gz    3.09 kB          [emitted]  
+                     potatoes.css.gz    1.98 kB          [emitted]  
+              potatoes.vendor.css.gz    2.31 kB          [emitted]  
+               potatoes.vendor.js.gz    15.4 kB          [emitted]  
+                          index.html  418 bytes          [emitted]  
+```
+### Folder structure
+
 .
 ├── src                          # Applications source code
 │   ├── inferno                  # Inferno app
