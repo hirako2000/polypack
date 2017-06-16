@@ -77,11 +77,12 @@ module.exports = function (env) {
       }),
       new webpack.optimize.UglifyJsPlugin({
         compress: {
-          warnings: false,
+          warnings: false
         },
         output: {
-          comments: false,
+          comments: false
         },
+        sourceMap: true
       }),
       new CompressionPlugin({
            asset: "[path].gz[query]",
