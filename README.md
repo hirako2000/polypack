@@ -25,7 +25,7 @@ The motivation behind this project started from observation that most if not all
 
 ### Roadmap
 
-- [x] Base bundler with webpack 2 & Babel
+- [x] Base bundler with webpack 3 & Babel
 - [x] Multi SPA bundler config
 - [x] Hot Module Reload
 - [x] Production build
