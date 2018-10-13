@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/86dcd0601595468db66ed2be1c7f23de)](https://app.codacy.com/app/hirako2000/polypack?utm_source=github.com&utm_medium=referral&utm_content=hirako2000/polypack&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.org/hirako2000/polypack.svg?branch=master)](https://travis-ci.org/hirako2000/polypack)
 [![Dependency Status](https://david-dm.org/hirako2000/polypack.svg?style=flat)](https://david-dm.org/hirako2000/polypack)
 [![devDependency Status](https://david-dm.org/hirako2000/polypack/dev-status.svg)](https://david-dm.org/hirako2000/polypack#info=devDependencies)
